@@ -1,9 +1,9 @@
 import VueRouter, { RouteConfig } from 'vue-router';
-import Home from './components/Home.vue';
+import About from './components/About.vue';
 
 const routes: RouteConfig[] = [
-  { path: '/', redirect: '/home' },
-  { path: '/home', component: Home }
+  { path: '/', redirect: '/about' },
+  { path: '/about', component: About }
 ];
 export const router: VueRouter = new VueRouter({
   mode: 'history',

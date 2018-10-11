@@ -1,0 +1,3 @@
+# WebMap
+
+Universal map constructor

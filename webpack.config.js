@@ -76,8 +76,8 @@ module.exports = (env, argv) => {
     plugins: [
       new VueLoaderPlugin(),
       new HtmlWebpackPlugin({
-        template: 'index.html',
-        filename: 'index.html'
+        template: './src/index.html',
+        filename: './src/index.html'
       }),
       new TSLintPlugin({
         files: ['./src/**/*.ts']

@@ -1,0 +1,38 @@
+{
+  "name": "@nextgis/ol-ngw-example",
+  "private": true,
+  "version": "0.2.0",
+  "scripts": {
+    "start": "webpack-dev-server ./src/main.js --progress --devtool source-map --mode=development",
+    "build": "webpack ./src/main.js --progress --devtool source-map --mode=production",
+    "watch": "webpack ./src/main.js --mode development --watch --progress --devtool source-map --mode=development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nextgis/nextgisweb_frontend.git"
+  },
+  "keywords": [
+    "NextGIS",
+    "MAP"
+  ],
+  "author": "",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "@nextgis/ngw-kit": "^0.2.0",
+    "@nextgis/ol-map-adapter": "^0.2.0",
+    "@nextgis/qms-kit": "^0.2.0",
+    "@nextgis/webmap": "^0.2.0",
+    "ol": "^5.2.0"
+  },
+  "devDependencies": {
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.1",
+    "webpack-dev-server": "^3.1.9"
+  },
+  "bugs": {
+    "url": "https://github.com/nextgis/nextgisweb_frontend/issues"
+  },
+  "homepage": "https://github.com/nextgis/nextgisweb_frontend#readme",
+  "description": "",
+  "gitHead": "bfca4116cc6f97eadae8093142123ca08efa9f55"
+}

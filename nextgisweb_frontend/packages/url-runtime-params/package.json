@@ -1,0 +1,33 @@
+{
+  "name": "@nextgis/url-runtime-params",
+  "version": "0.2.0",
+  "description": "",
+  "main": "lib/url-runtime-params.js",
+  "types": "lib/url-runtime-params.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/events": "^1.2.0",
+    "typescript": "^2.9.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nextgis/nextgisweb_frontend.git"
+  },
+  "keywords": [
+    "NextGIS",
+    "MAP"
+  ],
+  "author": "NextGIS",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "license": "GPL-3.0",
+  "gitHead": "61ae3c665f8c4c345a51183d1f53745cda97ec56"
+}
